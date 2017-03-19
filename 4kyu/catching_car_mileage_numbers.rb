@@ -53,26 +53,5 @@ def method(num, phrases)
                                 num.to_s.reverse == num.to_s))
 end
 
-# def is_interesting(number, awesome_phrases)
-#   output = 0
-#   (number..number + 2).each do |num|
-#     # p num.to_s.size
-#     # Any digit followed by all zeros: 100, 90000
-#     return output = (number == num ?  2 : 1) if num.to_s.size >= 3 and num.to_s.slice(1..-1).count("0") == (num.to_s.length - 1) ||
-#                                                 /^(\d)\1*$/ =~ num.to_s ||
-#                                                 "1234567890".match(num.to_s) ||
-#                                                 "9876543210".match(num.to_s) ||
-#                                                 num.to_s.reverse == num.to_s ||
-#                                                 awesome_phrases.include?(num)
-#   end
-#   output
-# end
-
 p is_interesting(98, [1337, 256])  #,     0);
 p  is_interesting(5433, [1, 2]) #,  1);
-# is_interesting(1337, [1337, 256]) #,  2);
-
-
-
-#first return 2 on all numbers
-# then if -2 etc, extend
