@@ -41,31 +41,6 @@ end
 p sum_pairs([1, 4, 8, 7, 3, 15], 8)
 
 
-# def sum_pairs(ints, s)
-#   ints.each_with_index do |x, i|
-#     for n in (0...i) do
-#       return [ints[n], x] if x + ints[n] == s
-#     end
-#   end
-#   nil
-# end
-
-
-#   ints.each_with_index do |x, i|
-#     for n in (0...i) do
-#       p "x is #{x}, and ints[n] #{ints[n]}"
-#       return [ints[n], x] if x + ints[n] == s
-#     end
-#   end
-#   nil
-# end
-# p sum_pairs([1, 4, 8, 7, 3, 15], 8)
-
-
-# code should only check with previous entries
-
-
-
 
 
 
