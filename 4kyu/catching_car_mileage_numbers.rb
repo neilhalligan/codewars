@@ -1,4 +1,6 @@
-# parses the mileage number input, and returns a 2 if the number is "interesting" (see below), a 1 if an interesting number occurs within the next two miles, or a 0 if the number is not interesting.
+# parses the mileage number input, and returns a 2 if the number is "interesting"
+# (see below), a 1 if an interesting number occurs within the next two miles, or a 0
+# if the number is not interesting.
 
 # Note: In Haskell, we use No, Almost and Yes instead of 0, 1 and 2.
 
@@ -23,10 +25,12 @@
 
 # A number is only interesting if it is greater than 99!
 # Input will always be an integer greater than 0, and less than 1,000,000,000.
-# The awesomePhrases array will always be provided, and will always be an array, but may be empty. (Not everyone thinks numbers spell funny words...)
+# The awesomePhrases array will always be provided, and will always be an array,
+# but may be empty. (Not everyone thinks numbers spell funny words...)
 # You should only ever output 0, 1, or 2.
 
-# Interesting numbers are 3-or-more digit numbers that meet one or more of the following criteria:
+# Interesting numbers are 3-or-more digit numbers that meet one or more of the
+# following criteria:
 
 # Any digit followed by all zeros: 100, 90000
 # Every digit is the same number: 1111
